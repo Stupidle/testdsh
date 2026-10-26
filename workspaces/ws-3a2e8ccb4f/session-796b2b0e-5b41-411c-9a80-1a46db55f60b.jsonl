@@ -19,3 +19,15 @@
 {"type":"step/end","seq":17,"time":1792942595450,"data":{"turn":1,"step":1}}
 {"type":"turn/end","seq":18,"time":1792942595451,"data":{"turn":1,"reason":{"kind":"completed"}}}
 {"type":"session/end-seed","seq":19,"time":1793021332696,"data":{}}
+{"type":"agent/inbox/spliced","seq":20,"time":1793033505235,"data":{"target":"next-turn","start":0,"inserted":[{"content":[{"type":"text","text":"要不碰到其他弦，这左手必须要很垂直啊，还只能指尖按，接触面积极小"}],"source":{"kind":"user","rpcId":"f1f99fd8-78a7-4c34-a2e8-c68593ebd91f","clientTimeZone":"Asia/Shanghai"},"role":"user","id":"b923a001-9853-4577-8f12-d9b5c5c5b76f"}]}}
+{"type":"turn/start","seq":21,"time":1793033505236,"data":{"turn":2}}
+{"type":"agent/inbox/spliced","seq":22,"time":1793033505237,"data":{"target":"next-turn","start":0,"removedCount":1,"inserted":[]}}
+{"type":"step/start","seq":23,"time":1793033505252,"data":{"turn":2,"step":1}}
+{"type":"step/end","seq":24,"time":1793033505253,"data":{"turn":2,"step":1}}
+{"type":"turn/end","seq":25,"time":1793033505254,"data":{"turn":2,"reason":{"kind":"error","error":{"message":"provider \"google-vertex\" model \"gemini-4-argon\" does not support reasoning effort \"high\"","code":"UNSUPPORTED_REASONING_EFFORT"}}}}
+{"type":"agent/inbox/spliced","seq":26,"time":1793033557938,"data":{"target":"next-turn","start":0,"inserted":[{"content":[{"type":"text","text":"要不碰到其他弦，这左手必须要很垂直啊，还只能指尖按"}],"source":{"kind":"user","rpcId":"af1c5eee-9a01-44d2-a0de-bc05265b1986","clientTimeZone":"Asia/Shanghai"},"role":"user","id":"7c1f4bf6-4219-4973-a761-209f24593075"}]}}
+{"type":"turn/start","seq":27,"time":1793033557939,"data":{"turn":3}}
+{"type":"agent/inbox/spliced","seq":28,"time":1793033557939,"data":{"target":"next-turn","start":0,"removedCount":1,"inserted":[]}}
+{"type":"step/start","seq":29,"time":1793033558705,"data":{"turn":3,"step":1}}
+{"type":"step/end","seq":30,"time":1793033558705,"data":{"turn":3,"step":1}}
+{"type":"turn/end","seq":31,"time":1793033558706,"data":{"turn":3,"reason":{"kind":"error","error":{"message":"provider \"google-vertex\" model \"gemini-4-argon\" does not support reasoning effort \"high\"","code":"UNSUPPORTED_REASONING_EFFORT"}}}}
