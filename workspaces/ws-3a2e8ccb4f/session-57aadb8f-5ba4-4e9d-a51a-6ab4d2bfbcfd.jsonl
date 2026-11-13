@@ -85,3 +85,4 @@
 {"type":"step/end","seq":83,"time":1794592689630,"data":{"turn":2,"step":9}}
 {"type":"workspace/changes","seq":84,"time":1794592689643,"data":{"turn":2}}
 {"type":"turn/end","seq":85,"time":1794592689643,"data":{"turn":2,"reason":{"kind":"completed"}}}
+{"type":"session/end-seed","seq":86,"time":1794593095797,"data":{}}
